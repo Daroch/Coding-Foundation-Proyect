@@ -10,43 +10,54 @@ body {
 .content_wrapper {
     display: flex;
     background-color: #36383F;
-    align-items: center;
 }
 .content_wrapper > .column_left_wrapper {
+    max-width: 750px;
     display: flex;
     flex-direction: column;
 }
 .content_wrapper > .column_left_wrapper > .slogan1_wrapper {
-    font-size: 1.5em;
-    padding: 30px;
+    font-size: 2rem;
+    padding: 50px;
+    font-weight: 200;
 }
 .content_wrapper > .column_left_wrapper > .slogan2_wrapper {
-    font-size: 1.3em;
+    font-size: 2rem;
     padding: 30px;
     color: #b3b3b3;
 }
 .content_wrapper > .column_left_wrapper > .slogan_buttons_wrapper {
     display: flex;
     font-size: 1.5em;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .content_wrapper > .column_left_wrapper > .slogan_buttons_wrapper > .button_signup {
     background-color: #2fb45a;
     color: black;
-    padding:10px;
+    padding:20px;
+    border-radius: 3px;
+    outline: none;
+    margin-right: 15px;
+    font-weight: 400;
 }
 .content_wrapper > .column_left_wrapper > .slogan_buttons_wrapper > .button_learn {
     background-color:black;
     color: white;
-    padding:10px;
+    padding: 20px;
+    border-radius: 3px;
+    outline: none;
+    font-weight: 800;
 }
 
-
+.content_wrapper > .column_right_wrapper {
+    vertical-align: top;
+}
 .content_wrapper > .column_right_wrapper > .legend {
-
+    font-size: 15px;
+    margin-top: 40px;
 }
 .content_wrapper > .column_right_wrapper > .screenshot_wrapper img {
-    max-width: 300px;
+    width: 500px;
+    border-radius: 3px;
 }
 
