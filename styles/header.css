@@ -1,0 +1,36 @@
+.header_wrapper {
+    display:flex;
+    margin:5px;
+}
+.header_wrapper > .logo_wrapper img {
+    width: 120px;
+    padding: 10px 40px 10px 10px;
+
+}
+
+.navigation_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.navigation_wrapper > .menu_explore_wrapper {
+    color: darkgoldenrod;
+    text-align: left;
+}
+.navigation_wrapper > .menu_wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.navigation_wrapper > .menu_wrapper > .link_menu {
+    padding: 5px 20px 5px 0px;
+}
+
+.navigation_buttons_wrapper {
+    display: flex;
+}
+.navigation_buttons_wrapper > .button {
+    padding: 5px;
+    margin: 10px;
+    background-color: #36383F;
+    color: white;
+}

@@ -1,0 +1,10 @@
+.footer_wrapper {
+    background-color: #36383F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_wrapper > .footer_cell {
+    padding: 10px;
+}
