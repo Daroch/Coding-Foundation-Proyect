@@ -12,49 +12,54 @@ body {
     background-color: #36383F;
 }
 .content_wrapper > .column_left_wrapper {
-    max-width: 750px;
+    padding: 0px 50px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
 }
 .content_wrapper > .column_left_wrapper > .slogan1_wrapper {
-    font-size: 2rem;
-    padding: 50px;
-    font-weight: 200;
+    font-size: 1.9rem;
+    padding-top: 50px;
+    font-weight:lighter;
 }
 .content_wrapper > .column_left_wrapper > .slogan2_wrapper {
-    font-size: 2rem;
-    padding: 30px;
+    font-size: 1.6rem;
     color: #b3b3b3;
+    padding: 25px 0px 30px 0px;
 }
 .content_wrapper > .column_left_wrapper > .slogan_buttons_wrapper {
     display: flex;
     font-size: 1.5em;
-    justify-content: center;
+    justify-content: left;
+    font-weight: 100;
 }
 .content_wrapper > .column_left_wrapper > .slogan_buttons_wrapper > .button_signup {
     background-color: #2fb45a;
     color: black;
-    padding:20px;
+    padding:15px;
     border-radius: 3px;
     outline: none;
     margin-right: 15px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .content_wrapper > .column_left_wrapper > .slogan_buttons_wrapper > .button_learn {
     background-color:black;
     color: white;
-    padding: 20px;
+    padding: 15px;
     border-radius: 3px;
     outline: none;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .content_wrapper > .column_right_wrapper {
     vertical-align: top;
 }
 .content_wrapper > .column_right_wrapper > .legend {
+    padding-left: 10px;
+    padding-bottom: 5px;
     font-size: 15px;
     margin-top: 40px;
+    font-weight: 900;
 }
 .content_wrapper > .column_right_wrapper > .screenshot_wrapper img {
     width: 500px;

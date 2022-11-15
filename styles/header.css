@@ -1,41 +1,64 @@
 .header_wrapper {
     display:flex;
-    margin:5px;
+    align-items: center;
+    height: 65px;
 }
 .header_wrapper > .logo_wrapper img {
-    width: 120px;
+    width: 140px;
     padding: 10px 40px 10px 10px;
-
 }
 
-.navigation_wrapper {
+.header_wrapper > .navigation_wrapper {
     display: flex;
     flex-direction: column;
 }
 .navigation_wrapper > .menu_explore_wrapper {
     color: #f4e17f;
     text-align: left;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 .navigation_wrapper > .menu_wrapper {
     display: flex;
     justify-content: space-between;
     text-align: left;
-    font-weight: 700;
-    font-size: 16px;
 }
 .navigation_wrapper > .menu_wrapper > .link_menu {
+    padding: 5px 15px 5px 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.navigation_wrapper > .menu_wrapper > .link_menu_dropdown {
     padding: 5px 20px 5px 0px;
+    font-weight: 100;
+    font-size: 16px;
 }
 
-.navigation_buttons_wrapper {
-    display: flex;
+.header_wrapper > .navigation_right_wrapper {
+    margin-left: auto;
+    margin-top: 0px;
 }
-.navigation_buttons_wrapper > .button {
-    padding: 10px 16px;
+.header_wrapper > .navigation_right_wrapper > .navigation_buttons_wrapper{
+    display: flex;
+    justify-content:space-between;
+}
+.header_wrapper > .navigation_right_wrapper > .navigation_buttons_wrapper > .button {
+    padding: 10px 20px;
     margin: 0 10px 0 0;
     background-color: #36383F;
     color: white;
     font-size: 1rem;
     border-radius: 3px;
     outline: none;
+    align-items: center;
+    font-weight: 900;
+}
+.navigation_buttons_wrapper > .button  > .icono_check {
+    color: green;
+    font-size: 1.5rem;
+}
+.navigation_buttons_wrapper > .icono_search {
+    font-size: 1.5rem;
+    margin: 10px 10px 0 0;
+    color: #36383F;
 }
