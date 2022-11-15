@@ -2,6 +2,7 @@
     display:flex;
     align-items: center;
     height: 65px;
+    background-color: black;
 }
 .header_wrapper > .logo_wrapper img {
     width: 140px;
@@ -32,6 +33,7 @@
     padding: 5px 20px 5px 0px;
     font-weight: 100;
     font-size: 16px;
+    color: #acaca2;
 }
 
 .header_wrapper > .navigation_right_wrapper {
@@ -47,18 +49,23 @@
     margin: 0 10px 0 0;
     background-color: #36383F;
     color: white;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border-radius: 3px;
     outline: none;
     align-items: center;
     font-weight: 900;
+    line-height: 1.2;
+    align-content: center;
+    text-align: initial;
 }
 .navigation_buttons_wrapper > .button  > .icono_check {
-    color: green;
-    font-size: 1.5rem;
+    color: #49c877;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 .navigation_buttons_wrapper > .icono_search {
     font-size: 1.5rem;
-    margin: 10px 10px 0 0;
+    margin: 10px 20px 0 20px;
     color: #36383F;
+    font-weight: 700;
 }

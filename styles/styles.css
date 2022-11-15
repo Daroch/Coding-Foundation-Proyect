@@ -1,6 +1,6 @@
 body {
     color:white;
-    background-color: black;
+    background-color: #191a1d;
     font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
 }
 .screenshot_wrapper img{
@@ -10,6 +10,8 @@ body {
 .content_wrapper {
     display: flex;
     background-color: #36383F;
+    background: linear-gradient(to right, #36383F, #0a0b0c);
+    justify-content: space-between;
 }
 .content_wrapper > .column_left_wrapper {
     padding: 0px 50px;
@@ -20,7 +22,10 @@ body {
 .content_wrapper > .column_left_wrapper > .slogan1_wrapper {
     font-size: 1.9rem;
     padding-top: 50px;
-    font-weight:lighter;
+    font-weight: lighter;
+}
+.fa-hand-wave {
+    color: #ffcf5d;
 }
 .content_wrapper > .column_left_wrapper > .slogan2_wrapper {
     font-size: 1.6rem;
@@ -34,18 +39,18 @@ body {
     font-weight: 100;
 }
 .content_wrapper > .column_left_wrapper > .slogan_buttons_wrapper > .button_signup {
-    background-color: #2fb45a;
+    background-color: #4bce79;
     color: black;
-    padding:15px;
+    padding:15px 20px;
     border-radius: 3px;
     outline: none;
     margin-right: 15px;
     font-weight: 500;
 }
 .content_wrapper > .column_left_wrapper > .slogan_buttons_wrapper > .button_learn {
-    background-color:black;
+    background-color: #111111;
     color: white;
-    padding: 15px;
+    padding: 15px 20px;
     border-radius: 3px;
     outline: none;
     font-weight: 900;
@@ -53,6 +58,7 @@ body {
 
 .content_wrapper > .column_right_wrapper {
     vertical-align: top;
+    padding-right: 10px;
 }
 .content_wrapper > .column_right_wrapper > .legend {
     padding-left: 10px;
@@ -62,7 +68,7 @@ body {
     font-weight: 900;
 }
 .content_wrapper > .column_right_wrapper > .screenshot_wrapper img {
-    width: 500px;
+    width: 450px;
     border-radius: 3px;
 }
 
